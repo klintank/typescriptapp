@@ -2,19 +2,27 @@
   "ProjectName": "tsapp",
   "ProjectGuid": "cda3de0f-aa91-4c71-8150-3f2448786dbf",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.tsapp",
+  "AppIdentifier": "org.nativescript.tsapp",
   "DisplayName": "tsapp",
-  "Author": "",
+  "Author": "Katturaja Mookkan",
   "Description": "tsapp",
-  "BundleVersion": "1.0",
+  "BundleVersion": "1.0.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
     "2"
   ],
-  "iOSBackgroundMode": [],
+  "iOSBackgroundMode": [
+    "audio",
+    "location",
+    "fetch",
+    "remote-notification"
+  ],
   "ProjectTypeGuids": "{F0A65104-D4F4-4012-B799-F612D75820F6}",
   "AndroidPermissions": [
+    "android.permission.ACCESS_NETWORK_STATE",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.BIND_APPWIDGET",
     "android.permission.INTERNET"
   ],
   "DeviceOrientations": [
@@ -24,5 +32,6 @@
   "AndroidHardwareAcceleration": "false",
   "iOSStatusBarStyle": "Default",
   "FrameworkVersion": "1.5.2",
-  "Framework": "NativeScript"
+  "Framework": "NativeScript",
+  "iOSDeploymentTarget": "7.1"
 }
